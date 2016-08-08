@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    class ConsoleApplication1
     {
+
         static void Main(string[] args)
         {
+            clockradio radio = new clockradio("box", "black", 0, false);
+            radio.TurnOn();
+            Console.ReadLine();
         }
     }
 }
